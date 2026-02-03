@@ -1,4 +1,4 @@
-# Context Hub: Always-current docs for AI agents
+# Primary Narrative: Always-current docs for AI agents
 
 Your AI coding agent was trained months ago. The API you're using shipped a breaking change last week. The agent doesn't know. It writes code against the old API, you debug for 20 minutes, then paste the docs into chat yourself.
 
@@ -30,5 +30,7 @@ The skill is now installed. The agent discovers it automatically in every future
 ## Why this matters
 
 LLMs have a knowledge cutoff. APIs don't stop changing. Today, humans bridge this gap by pasting docs into chat. Context Hub lets the agent bridge it autonomously — search a registry, fetch what it needs, and get back to writing code.
+
+Library documentation should be open and transparent — not locked behind proprietary tools or paywalled indexes. Context Hub's public registry is community-maintained and freely available. Anyone can read it, contribute to it, and build on it. When documentation is open, every agent benefits.
 
 Docs tell the agent *what to know*. Skills tell it *how to do things*. Both are versioned, searchable across multiple sources (public CDN + your team's private docs), and formatted for the [Agent Skills](https://agentskills.io) open standard — compatible with Claude Code, Cursor, Codex, and 30+ other tools.
